@@ -1,0 +1,18 @@
+html { scroll-behavior: smooth; }
+body { margin: 0; 
+    font-family: Arial, Helvetica, sans-serif; 
+    line-height: 1.6; }
+header, footer { background: #f5f7fa;
+     padding: 1rem; }
+nav a { margin-right: 0.75rem;
+     text-decoration: none; 
+     color: #1a1a1a; }
+main { padding: 1rem;
+     max-width: 900px; 
+     margin: 0 auto; }
+h1, h2, h3 { margin: 0.5rem 0; }
+figure { margin: 1rem 0; }
+img { max-width: 100%;
+     height: auto;
+      border-radius: 8px; }
+ul { padding-left: 1rem; }
