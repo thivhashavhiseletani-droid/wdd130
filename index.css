@@ -1,18 +1,61 @@
-html { scroll-behavior: smooth; }
-body { margin: 0; 
-    font-family: Arial, Helvetica, sans-serif; 
-    line-height: 1.6; }
-header, footer { background: #f5f7fa;
-     padding: 1rem; }
-nav a { margin-right: 0.75rem;
-     text-decoration: none; 
-     color: #1a1a1a; }
-main { padding: 1rem;
-     max-width: 900px; 
-     margin: 0 auto; }
-h1, h2, h3 { margin: 0.5rem 0; }
-figure { margin: 1rem 0; }
-img { max-width: 100%;
-     height: auto;
-      border-radius: 8px; }
-ul { padding-left: 1rem; }
+
+nav {
+  background-color: #f0f0f0;   /* light gray background */
+  padding: 10px;               /* space inside nav */
+}
+
+nav a {
+  color: #333;                 /* dark text color */
+  padding: 8px 12px;           /* space around each link */
+  display: block;              /* block so padding applies fully */
+  text-decoration: none;
+}
+
+
+main {
+  max-width: 840px;            /* limit width */
+  margin: 0 auto;              /* center horizontally */
+}
+
+
+h1 {
+  color: #2a4d8f;              /* example blue color */
+}
+
+/* Images inside main */
+main img {
+  width: 150px;                /* required width */
+  height: auto;                /* keep aspect ratio */
+  border: 2px solid #ccc;      /* simple border */
+  padding: 5px;                /* space inside border */
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.3); /* subtle shadow */
+}
+
+
+aside {
+  width: 300px;                /* fixed width */
+  margin: 20px auto;           /* space around, centered */
+  border: 1px solid #999;      /* border */
+  padding: 10px;               /* inner spacing */
+  background-color: #fafafa;   /* light background */
+  color: #222;                 /* text color */
+}
+
+aside img {
+  width: 200px;                
+  height: auto;                
+}
+
+
+p {
+  padding: 0;                 
+}
+
+
+footer {
+  margin-top: 20px;            /* space above footer */
+  border-top: 2px solid #ccc;  /* top border */
+  text-align: center;          /* center text */
+  padding: 10px 0;             /* optional vertical padding */
+}
+
